@@ -1,0 +1,19 @@
+.pagination-container {
+    display: flex;
+    margin: 4vh 0 4vh 0;
+}
+
+.pagination-container .pagination-button {
+    cursor: pointer;
+    font-size: 1.8vh;
+    padding: 0 4vh 0 4vh;
+}
+
+.pagination-container .pagination-number {
+    background: black;
+    color: white;
+    font-size: 1.8vh;
+    font-weight: bold;
+    margin: 0 5vh 0 5vh;
+    padding: 0.5vh 11vh 0.5vh 11vh;
+}

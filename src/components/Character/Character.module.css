@@ -1,0 +1,27 @@
+.character-card {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin: 1vh 3vh 4vh 3vh;
+}
+
+.character-card img {
+    display: flex;
+    max-width: 300px;
+}
+
+.character-card .name {
+    align-items: stretch;
+    background: black;
+    color: white;
+    display: flex;
+    font-size: 1.2vh;
+    justify-content: center;
+    margin: -20px 0 0 0;
+    opacity: 0.2;
+    padding: 1vh;
+}
+
+.character-card:hover .name {
+    opacity: 1;
+}

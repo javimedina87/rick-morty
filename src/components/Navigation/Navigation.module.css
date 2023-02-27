@@ -1,0 +1,23 @@
+.navigation-header {
+    background: black;
+    flex: 0 0 100%;
+}
+
+.navigation-header nav, ul {
+    cursor: pointer;
+    display: flex;
+}
+
+.navigation-header li {
+    font-size: 2vh;
+    padding: 2vh 1vh 2vh 2vh;
+}
+
+.navigation-header .active-link {
+    color: white;
+    font-weight: bold;
+}
+
+.navigation-header a:hover {
+    color: white;
+}
